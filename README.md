@@ -1,3 +1,3 @@
 # awesome-go
 
-This repo is created for learn go lang.
+This repo is created to learn go lang.
