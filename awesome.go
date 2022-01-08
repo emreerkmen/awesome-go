@@ -2,6 +2,12 @@
 package main
 
 import (
+	"awesome-go/arrayExample"
+	"awesome-go/functionExample"
+	"awesome-go/mapExample"
+	"awesome-go/pointerExample"
+	"awesome-go/sliceExample"
+	"awesome-go/structExample"
 	"fmt"
 	"math"
 	"runtime"
@@ -44,7 +50,12 @@ func main() {
 	switchExample()
 	deferExample()
 	deferExample2()
-
+	pointerExample.Pointers()
+	structExample.StructExample()
+	arrayExample.ArrayExample()
+	sliceExample.SliceExample()
+	mapExample.MapExample()
+	functionExample.FunctionExample()
 }
 
 //Basic func
