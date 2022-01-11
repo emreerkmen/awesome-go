@@ -4,7 +4,9 @@ package main
 import (
 	"awesome-go/arrayExample"
 	"awesome-go/functionExample"
+	"awesome-go/interfaceExample"
 	"awesome-go/mapExample"
+	"awesome-go/methodExample"
 	"awesome-go/pointerExample"
 	"awesome-go/sliceExample"
 	"awesome-go/structExample"
@@ -56,6 +58,8 @@ func main() {
 	sliceExample.SliceExample()
 	mapExample.MapExample()
 	functionExample.FunctionExample()
+	methodExample.MethodExample()
+	interfaceExample.InterfaceExample()
 }
 
 //Basic func
