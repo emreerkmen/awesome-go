@@ -3,6 +3,7 @@ package main
 
 import (
 	"awesome-go/arrayExample"
+	"awesome-go/errorExample"
 	"awesome-go/functionExample"
 	"awesome-go/interfaceExample"
 	"awesome-go/mapExample"
@@ -60,6 +61,7 @@ func main() {
 	functionExample.FunctionExample()
 	methodExample.MethodExample()
 	interfaceExample.InterfaceExample()
+	errorExample.ErrorExample()
 }
 
 //Basic func
