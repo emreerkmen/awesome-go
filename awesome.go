@@ -3,8 +3,10 @@ package main
 
 import (
 	"awesome-go/arrayExample"
+	"awesome-go/channelExample"
 	"awesome-go/errorExample"
 	"awesome-go/functionExample"
+	"awesome-go/goRoutineExample"
 	"awesome-go/interfaceExample"
 	"awesome-go/mapExample"
 	"awesome-go/methodExample"
@@ -62,6 +64,8 @@ func main() {
 	methodExample.MethodExample()
 	interfaceExample.InterfaceExample()
 	errorExample.ErrorExample()
+	goRoutineExample.GoRoutineExample()
+	channelExample.ChannelExample()
 }
 
 //Basic func
