@@ -42,7 +42,7 @@ func sum(s []int, c chan int) {
 func channelsDeadlockExample() {
 	fmt.Println("Channel deadlock example is started.")
 
-	// It will send error because in 62. row the execution stop but there is no any go routine
+	// It will send error because in 48. row the execution stop but there is no any go routine
 	//that continue to run to receive from channel any value.
 	/*ch1 := make(chan int)
 	ch1 <- 1 // block
@@ -50,7 +50,7 @@ func channelsDeadlockExample() {
 	fmt.Println(<-ch1)
 	fmt.Println(<-ch1)*/
 
-	// It will send error because in 60. row the execution stop but there is no any go routine
+	// It will send error because in 55. row the execution stop but there is no any go routine
 	//that continue to run to receive from channel any value.
 	/*ch1 := make(chan int)
 	ch1 <- 1
